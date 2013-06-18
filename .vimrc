@@ -12,14 +12,17 @@ set modelines=0
 inoremap jj <ESC>
 set wildmenu
 set wildmode=longest:full
+set nu
 
 "for tabbing
 set expandtab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set smarttab
 vmap <Tab> >gv
 vmap <S-Tab> <gv
+inoremap <S-Tab> <C-D>
+
 
 set lbr "word wrap
 set tw=500
@@ -55,3 +58,6 @@ nnoremap <leader>cf :CommandTFlush<CR>
 nnoremap <C-S-Tab> :tabprevious<CR>
 nnoremap <C-Tab> :tabnext<CR>
 
+
+" pathogen
+call pathogen#infect() 
