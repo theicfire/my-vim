@@ -58,6 +58,5 @@ nnoremap <leader>cf :CommandTFlush<CR>
 nnoremap <C-S-Tab> :tabprevious<CR>
 nnoremap <C-Tab> :tabnext<CR>
 
-
-" pathogen
-call pathogen#infect() 
+"mouse omg awesome
+set mouse=a
