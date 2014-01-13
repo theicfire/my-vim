@@ -9,7 +9,6 @@ set ignorecase
 set smartcase
 set hlsearch
 set modelines=0
-inoremap jj <ESC>
 set wildmenu
 set wildmode=longest:full
 set nu
