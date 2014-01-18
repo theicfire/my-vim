@@ -64,8 +64,9 @@ vnoremap <leader>y "+y
 nnoremap <leader>a ggVG
 nnoremap <leader>cf :CommandTFlush<CR>
 
+"http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line
+set backspace=indent,eol,start "fixes mac backspace problem
+
 " tab navigation like firefox
 "nnoremap <C-S-Tab> :tabprevious<CR>
 "nnoremap <M-S-}> :tabnext<CR>
-
-set mouse=a
