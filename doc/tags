@@ -21,6 +21,9 @@
 'showmarks_include'	showmarks.txt	/*'showmarks_include'*
 'showmarks_textother'	showmarks.txt	/*'showmarks_textother'*
 'showmarks_textupper'	showmarks.txt	/*'showmarks_textupper'*
+,b	camelcasemotion.txt	/*,b*
+,e	camelcasemotion.txt	/*,e*
+,w	camelcasemotion.txt	/*,w*
 :Ack	ack.txt	/*:Ack*
 :AckAdd	ack.txt	/*:AckAdd*
 :CoffeeCompile	coffee-script.txt	/*:CoffeeCompile*
@@ -90,6 +93,17 @@ b:lineCommentRE	IndentAnything.txt	/*b:lineCommentRE*
 b:lineContList	IndentAnything.txt	/*b:lineContList*
 b:singleQuoteStringRE	IndentAnything.txt	/*b:singleQuoteStringRE*
 b:stringRE	IndentAnything.txt	/*b:stringRE*
+camelcasemotion-configuration	camelcasemotion.txt	/*camelcasemotion-configuration*
+camelcasemotion-dependencies	camelcasemotion.txt	/*camelcasemotion-dependencies*
+camelcasemotion-description	camelcasemotion.txt	/*camelcasemotion-description*
+camelcasemotion-history	camelcasemotion.txt	/*camelcasemotion-history*
+camelcasemotion-ideas	camelcasemotion.txt	/*camelcasemotion-ideas*
+camelcasemotion-installation	camelcasemotion.txt	/*camelcasemotion-installation*
+camelcasemotion-known-problems	camelcasemotion.txt	/*camelcasemotion-known-problems*
+camelcasemotion-todo	camelcasemotion.txt	/*camelcasemotion-todo*
+camelcasemotion-usage	camelcasemotion.txt	/*camelcasemotion-usage*
+camelcasemotion.txt	camelcasemotion.txt	/*camelcasemotion.txt*
+camelcasemotion.vim	camelcasemotion.txt	/*camelcasemotion.vim*
 coffee-script	coffee-script.txt	/*coffee-script*
 coffee-script-author	coffee-script.txt	/*coffee-script-author*
 coffee-script-commands	coffee-script.txt	/*coffee-script-commands*

@@ -66,8 +66,10 @@ vnoremap <leader>y "+y
 nnoremap <leader>a ggVG
 nnoremap <leader>cf :CommandTFlush<CR>
 
+set backspace=2 " make backspace work like most other apps
+
+
 " tab navigation like firefox
 "nnoremap <C-S-Tab> :tabprevious<CR>
 "nnoremap <M-S-}> :tabnext<CR>
-
 set mouse=a

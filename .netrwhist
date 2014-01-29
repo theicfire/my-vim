@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/clambert/code/pgdev/pg/code33/plugins/timeline/web'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/chase/.config/sublime-text-3/Packages/Default'
+let g:netrw_dirhist_2='/home/chase/zzdump/cosmogia-all'
+let g:netrw_dirhist_3='/home/chase/zzdump/cosmogia-all/cosmogia3'
+let g:netrw_dirhist_4='/home/chase/.config'
+let g:netrw_dirhist_5='/home/chase/.config/sublime-text-3'
+let g:netrw_dirhist_6='/home/chase/.config/sublime-text-3/Installed Packages'
+let g:netrw_dirhist_7='/home/chase/.vim'
+let g:netrw_dirhist_8='/home/chase/code'
+let g:netrw_dirhist_9='/home/chase/code/ctutorial'
