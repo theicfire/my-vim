@@ -25,19 +25,21 @@ inoremap <S-Tab> <C-D>
 set lbr "word wrap
 set tw=500
 
-set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
 "yank and paste go to a register delete and cut does not share
-noremap  y "-y
-noremap  Y "-Y
-noremap  p "-p
-noremap  P "-P
-vnoremap y "-y
-vnoremap Y "-Y
-vnoremap p "-p
-vnoremap P "-P
+noremap  d "_d
+noremap  dd "_dd
+vnoremap  d "_d
+"noremap  y "-y
+"noremap  Y "-Y
+"noremap  p "-p
+"noremap  P "-P
+"vnoremap y "-y
+"vnoremap Y "-Y
+"vnoremap p "-p
+"vnoremap P "-P
 
 " scrolling
 inoremap <C-E> <C-X><C-E> "scrolling on insert
@@ -67,7 +69,5 @@ nnoremap <leader>cf :CommandTFlush<CR>
 " tab navigation like firefox
 "nnoremap <C-S-Tab> :tabprevious<CR>
 "nnoremap <M-S-}> :tabnext<CR>
-map } gt
-map { gT
 
 set mouse=a
